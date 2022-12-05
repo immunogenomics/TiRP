@@ -1,7 +1,4 @@
 
-path_to_data = "/PHShome/kl162/TiRP_data/data"
-path_to_results = "/PHShome/kl162/TiRP_github/TiRP/results"
-
 reformat_vgene <- function(vg){
   vg = as.character(vg)
   vgene = gsub("TRBV", "TCRBV", vg)
