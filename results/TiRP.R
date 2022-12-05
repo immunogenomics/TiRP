@@ -26,6 +26,7 @@ get_pos_score <- function(x, touse, pos_terms){
 
 ##data.frame with first column corresponding to v_gene, second column corresponding to CDR3 sequence
 TiRP <- function(data){
+  path_to_results = path_to_TiRP
   weights = readRDS(paste(path_to_results, "TiRP_scoring/TiRP_weights.rds", sep="/"))
 
   suppressPackageStartupMessages({
