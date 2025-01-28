@@ -6,4 +6,4 @@ A demonstration of TiRP calculation is provided in **TiRP_demo.ipynb.**
 
 To see how TCR features are defined, check out **define_TCRfeatures_demo.ipynb.**
 
-Jupyter notebooks to reproduce all main figures are provided in **display_items.**. For clarity and brevity, functions are defined separately in **utils.R.**
+Jupyter notebooks to reproduce all main figures are provided in **display_items**. For clarity and brevity, functions are defined separately in **utils.R.**
